@@ -1,0 +1,46 @@
+#background-1 {
+    height: 100vh;
+    background-image: url("../img/background-1.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    margin-top: -60px;
+}
+#background-2 {
+    height: 100vh;
+    background-image: url("../img/background-1.jpg");
+    background-position: center;
+    background-size: cover;
+    margin-top: -60px;
+}
+
+.shadow-background-1{
+    background-color: rgba(0, 0, 0, 0.85);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    color: white;
+}
+
+.profile {
+    height: 100%;
+}
+
+.profile-img {
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 1rem !important;
+    border: 0.2rem solid black;
+    box-shadow: 2px 2px #ffa7008c;
+}
+
+.navbar-main {
+    z-index: 4000;
+    background-color: #0000005c;
+}
+
+.header-1{
+    margin-bottom: 1rem !important;
+}
